@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Display /> should match snapshot 1`] = `
+<div
+  className="display panel"
+  data-testid="display-component"
+>
+  <div
+    className="led green-led"
+    data-testid="gate-lock-status-display"
+  >
+    Unlocked
+  </div>
+  <div
+    className="led green-led"
+    data-testid="gate-status-display"
+  >
+    Open
+  </div>
+</div>
+`;
