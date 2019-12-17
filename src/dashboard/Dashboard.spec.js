@@ -7,7 +7,6 @@ import * as rtl from '@testing-library/react';
 
 import Dashboard from './Dashboard';
 
-
 /*
     Testing to see that:
         1) the Dashboard component shows the controls and display - done
