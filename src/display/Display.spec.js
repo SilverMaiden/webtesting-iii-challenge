@@ -39,11 +39,11 @@ describe('<Display />', () => {
     })
 
     it('should display Closed if the closed prop is true', () => {
-        let closed = false;
+        let closed = true;
         const wrapper = rtl.render(<Display closed={closed} />);
         let gateStatusNode = wrapper.getByTestId('gate-status-display');
 
-        expect(gateStatusNode.textContent).toBe("Open");
+        expect(gateStatusNode.textContent).toBe("Closed");
     })
 
 
